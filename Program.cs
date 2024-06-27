@@ -8,6 +8,7 @@ using System.Diagnostics;
 using AdventOfCode.Days.Day2;
 using AdventOfCodeMy.Days.Day3;
 using AdventOfCode;
+using AdventOfCodeMy.Days;
 //Console.WriteLine(Calcer.getResultOfDay1());
 
 
@@ -32,5 +33,5 @@ using AdventOfCode;
     [^x] - Anything but x (where x is whatever character you want)
  */
 
-Runner run = new Day3Part2();
+Runner run = new Day4Part1();
 Console.WriteLine(run.Run());
