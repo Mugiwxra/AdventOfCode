@@ -33,5 +33,5 @@ using AdventOfCodeMy.Days;
     [^x] - Anything but x (where x is whatever character you want)
  */
 
-Runner run = new Day4Part1();
+Runner run = new Day24Part1();
 Console.WriteLine(run.Run());

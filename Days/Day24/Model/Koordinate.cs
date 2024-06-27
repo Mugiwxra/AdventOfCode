@@ -17,8 +17,14 @@ public class Koordinate
 
 public class FunktionAttributes
 {
-   
     public decimal mValue { get; set; }
     public decimal bValue { get; set; }
+    public Koordinate? koordinateAtStart { get; set; }   
+}
 
+
+public class Intersection
+{
+    public decimal xValue { get; set; }
+    public decimal yValue { get; set; }
 }
